@@ -30,6 +30,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* flex-wrap: wrap; */
 }
 .search input{
     border: 0;
@@ -86,5 +87,12 @@
 }
 .humidity{
 
+}
+
+@media screen and (min-width:360px) {
+    .search input{
+        margin-left: 0px;
+        width: 70px;
+    } 
 }
 
